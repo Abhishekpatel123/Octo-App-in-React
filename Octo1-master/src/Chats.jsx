@@ -15,7 +15,7 @@ function Chats() {
       reconnection:true,
       reconnectionAttempts: 10,
       transports: ['websocket'],
-      agent: false, // [2] Please don't set this to true
+      agent: false, 
       upgrade: false,
       rejectUnauthorized: false
     });
