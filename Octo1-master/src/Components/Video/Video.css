@@ -1,0 +1,42 @@
+.video {
+    background-color: rgb(202, 36, 218);
+    border-radius: 20px 20px 20px 20px;
+    background-image: url("https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=547&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1px;
+    position: relative;
+
+
+    }
+
+ .video   .control_panel {
+        height: 100%;
+        width: 10%;
+        padding: 10px 4px;
+        margin: 0px;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: 15% 35% 35% 15%;
+    }
+      
+  
+.video    .icon-Container img {
+          width: 50%;
+          color: white;
+        }
+
+   .video .icon-Container {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(40px);
+            margin: 5px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }

@@ -1,0 +1,43 @@
+.chatContainer {
+    padding: 5px;
+    height: 205px;
+    width: 230px;
+    /* // border: 2px solid red; */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+    .chatbody {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      overflow: hidden;
+
+    }
+
+
+    .chatbody::-webkit-scrollbar {
+        display: none;
+      }
+
+
+
+      form i {
+        font-size: 20px;
+        color: rgb(59, 59, 223);
+        transform: translate(188px, -26px);
+      }
+    
+
+    form input {
+        padding: 4px 10px;
+        margin-top: 8px;
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(40px);
+      }

@@ -1,3 +1,6 @@
+
+
+import './Usermsg.css'
 function Usermsg(probs) {
     return (
         <div className="usermsg">

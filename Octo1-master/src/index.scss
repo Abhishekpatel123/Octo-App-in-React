@@ -58,17 +58,17 @@ main {
     display: block;
   }
 
-  .container {
-    height: 85vh;
-    width: 90vw;
-    border-radius: 20px;
-    margin: 50px auto;
-    padding: 20px !important;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    display: grid;
-    grid-template-columns: 7% 20% 66% 6%;
-  }
+  // .container {
+  //   height: 85vh;
+  //   width: 90vw;
+  //   border-radius: 20px;
+  //   margin: 50px auto;
+  //   padding: 20px !important;
+  //   background-color: rgba(255, 255, 255, 0.2);
+  //   backdrop-filter: blur(20px);
+  //   display: grid;
+  //   grid-template-columns: 7% 20% 66% 6%;
+  // }
 
   .panel {
     background-color: #5e5f76;

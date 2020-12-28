@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import './Chats.css'
+
 import Usermsg from "./Usermsg"
 import socketIOClient from "socket.io-client";
 const ENDPOINT = "http://localhost:5001";

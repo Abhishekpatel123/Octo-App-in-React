@@ -1,6 +1,7 @@
 import React from "react";
 import IconControl from "./Icon-container";
-import Chats from "./Chats";
+import Chats from "./Chatting/Chats";
+import './Video.css'
 
 function IconContainer(prop) {
     return (<div className="icon-Container">
